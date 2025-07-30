@@ -1,0 +1,490 @@
+:root{
+    --background: #0C0B08;
+    --low-background: #0C0C0C;
+    --low-p: #AAAAAA;
+    --h2-text-btn: #DCCA87;
+    --litle-text: #F5EFDB;
+    --div-line: #FAFAFA;
+    --standart-text: #FFFFFF;
+}
+
+
+
+
+
+/* ----------------------------header----------------------- */
+.rock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 319px;
+    padding-bottom: 85px;
+    background-image: url(img/barHomeImage/border.png),url(img/barHomeImage/bar.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0, center 0, center, center;
+    position: relative;
+}
+.rock-h1{
+    color: var(--standart-text);
+    font-size: 181px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 9.05px;
+    text-transform: capitalize;
+}
+.rock-line{
+    width: 1px;
+    height: 61px;
+    background-color: var(--standart-text);
+    margin-top: 233px;
+    
+}
+.rock-p{
+    color: var(--h2-text-btn);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.30; /* 20.8px */
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+.header{
+    background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(img/barHomeImage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rock-div{
+    display: flex;
+    width: 161px;
+    justify-content: space-between;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -64.75px;
+    top: 120.5px;
+    left: -72.5px;
+}
+.rock-div-p{
+    color: var(--standart-text);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75; /* 31.5px */
+    letter-spacing: 0.72px;
+}
+.rock-finish-div{
+    position: absolute;
+    bottom: 214px;
+    right: -58px;
+    transform: rotate(90deg);
+}
+.rock-finish-div{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    color: var(--litle-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+.rock-finish-div p:nth-child(1)
+{
+    color: var(--standart-text);
+}
+.rock-{
+    width: 16px ;
+    height: 1px;
+    background: var(--h2-text-btn);
+}
+.header-delight{
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    background-image: url(img/homeImage/delight.svg);
+    bottom: -115px;
+    right: 31px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------food----------------------- */
+
+.food{
+    background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(img/barHomeImage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 125px;
+    padding-bottom: 79px;
+}
+.food-div{
+    display: flex;
+    gap: 143px;
+    align-items: flex-end;
+    position: relative;
+}
+.foot-div::before{
+    content: "";
+    background-image: url(img/homeImage/delight.svg);
+}
+.food-p{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.food-h2{
+    color: var(--h2-text-btn);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.30;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+.food-text{
+    color: var(--low-p);
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    margin-top: 32px;
+}
+.food-btn{
+    color: var(--low-background);
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+
+    display: flex;
+    padding: 8px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--h2-text-btn);
+    margin-top: 32px;
+    font-family: "Cormorant Upright";
+}
+.food-image{
+    margin-left: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------poison----------------------- */
+
+.poison{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 201px;
+    padding-bottom: 152px;
+}
+.poison-p{
+    color: var(--standart-text);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.poison-h2{
+    margin-top: 8px;
+    color: var(--h2-text-btn);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.30;
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+}
+.poison-ul{
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+}
+.poison-li{
+    position: relative;
+}
+.poison-li::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 410px;
+    height: 600px;
+    border: 1px solid rgba(220,202,135,0.4);
+    top: 0;
+    right: 0;
+}
+.poison-li:hover::before{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 600px;
+    top: 0;
+    right: 0;
+    border: 1px solid transparent;
+    background: rgba(12,12,12,0.4);
+
+
+    content:"";
+}
+.poison-li:nth-child(1):hover::before{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.30; 
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 600px;
+
+    content: "beer";
+}
+.poison-li:nth-child(2):hover::before{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.30; 
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 600px;
+
+    content: "wine";
+}
+.poison-li:nth-child(3):hover::before{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.30; 
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 410px;
+    height: 600px;
+
+    content: "tie";
+}
+
+
+
+
+
+
+
+/* ----------------------------happy----------------------- */
+
+
+.happy-h2{
+    color: var(--h2-text-btn);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 1.30; /* 166.4px */
+    letter-spacing: 3.84px;
+    text-transform: capitalize;
+}
+.happy-p{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.30; /* 41.6px */
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+.happy-div{
+    display: flex;
+    gap: 8px;
+    margin-top: 32px;
+}
+.happy{
+    background-image: linear-gradient(rgba(12,12,12,0.4),rgba(12,12,12,0.4)),url(img/barHomeImage/wynobackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 330px 0;
+}
+
+/* -------------------------special-----------------------*/
+div.special-delight{
+    position: absolute;
+    display: block;
+    width: 146px;
+    height: 146px;
+    flex-shrink: 0;
+    background-image: url(img/homeImage/delight.svg);
+    top: 94px;
+    right: 87px;
+    margin: 0;
+}
+.special{
+    position: relative;
+}
+
+
+
+
+/* ----------------------------find-us----------------------- */
+
+.find-us{
+    background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(img/barHomeImage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 128px 0;
+}
+.find-us-div{
+    display: flex;
+    gap: 120px;
+    padding: 0 190px;
+    align-items: center;
+}
+.find-us-p{
+    color: var(--standart-text);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.find-us-h2{
+    margin-top: 8px;
+    color: var(--h2-text-btn);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.30; 
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+}
+.find-us-text{
+    color: var(--low-p);
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+    margin-top: 64px;
+}
+.find-us-h3{
+    color: var(--h2-text-btn);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+.find-us-date{
+    color: var(--standart-text);
+
+    /* Body 16px Regular */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+    margin-top: 16px;
+}
+.find-us-btn{
+    color: var(--low-background);
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+
+    display: flex;
+    padding: 8px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--h2-text-btn);
+    margin-top: 64px;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------footer----------------------- */
+.footerfirst{
+    position: relative;
+}
+
+.footer-delight{
+    position: absolute;
+    display: block;
+    width: 146px;
+    height: 146px;
+    flex-shrink: 0;
+    background-image: url(img/homeImage/delight.svg);
+    top: 30px;
+    right: 92px;
+    margin: 0;
+    z-index: 0;
+}
+.footerfirst-div{
+    position: relative;
+    z-index: 1;
+}

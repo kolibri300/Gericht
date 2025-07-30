@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"><link href="https://fonts.cdnfonts.com/css/bestermind" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bestermind" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,7 +46,7 @@
                     <button class="the-key-btn">Explore Menu</button>
                 </div>
                 <div class="the-key-box">
-                    <img src="img/egg.png" alt="egg" class="the-key-img" >
+                    <img src="img/homeImage/egg.png" alt="egg" class="the-key-img" >
                 </div>
             </div>
             <div class="the-key-div-2">
@@ -83,7 +84,7 @@
                         Know More
                     </button>
                 </div>
-                <img src="img/knife.png" alt="knife" class="about-us-img">
+                <img src="img/homeImage/knife.png" alt="knife" class="about-us-img">
                 <div class="about-us-div-right">
                     <h2 class="about-us-h2">
                         Our History
@@ -129,7 +130,7 @@
             <div class="menu-div container">
                 <ul class="menu-ul">
                     <li class="menu-li">
-                        <a href="second.html" class="menu-a">Bar Menu</a>
+                        <a href="barHome.html" class="menu-a">Bar Menu</a>
                     </li>
 
                     <li class="menu-li">
@@ -195,7 +196,7 @@
                     </li>
                     </ul>
                 </div>
-                <img src="img/lime.jpg" alt="lime">
+                <img src="img/homeImage/lime.jpg" alt="lime">
                 <div>
                     <h3 class="special-h3">Cocktails</h3>
                     <ul class="special-ul special-right">
@@ -245,147 +246,214 @@
             <button class="special-btn">View More</button>
         </section>
         <section class="chef">
-            <img src="img/chef.jpg" alt="chef" class="chef-img">
+            <div class="chef-div container">
+                <img src="img/homeImage/chef.png" alt="chef" class="chef-img">
+                <div>
+                    <div>
+                        <p class="chef-word spoon-right">
+                            Chef’s Word
+                        </p>
+                        <h2 class="chef-h2">
+                            What we believe in
+                        </h2>
+                    </div>
+                    <p class="chef-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.
+                    </p>
+                    <div>
+                        <p class="chef-name">
+                            Kevin Luo
+                        </p>
+                        <p class="chef-who">
+                            Chef & Founder
+                        </p>
+                    </div>
+                    <p  class="chef-best">
+                        Kevin Luo
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="customer container">
             <div>
-                <p class="chef-word spoon-right">
-                    Chef’s Word
+                <p class="customer-p spoon">
+                    Testimony
                 </p>
-                <h2 class="chef-h2">
-                    What we believe in
+                <h2 class="customer-h2">
+                    Happy customers
+
                 </h2>
-                <p class="chef-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.
-                </p>
-                <p class="chef-name">
-                    Kevin Luo
-                </p>
-                <p class="chef-who">
-                    Chef & Founder
-                </p>
-                <p  class="chef-best">
-                    Kevin Luo
-                </p>
+            </div>
+            <ul class="customer-ul">
+                <li class="customer-li">
+                    <div class="customer-img-div">
+                        <img src="img/homeImage/wade.jpg" alt="Wade Warren" class="customer-img">
+                    </div>
+                    <div class="customer-content-div">
+                        <p class="customer-ul-p">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                        <h4 class="customer-ul-h4">Wade Warren</h4>
+                        <p class="customer-ul-who">Sommelier</p>
+                    </div>
+                </li>
+
+                <li class="customer-li">
+                    <div class="customer-img-div">
+                        <img src="img/homeImage/jane.jpg" alt="Jane Cooper" class="customer-img">
+                    </div>
+                    <div class="customer-content-div">
+                        <p class="customer-ul-p">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                        <h4 class="customer-ul-h4">Jane Cooper</h4>
+                        <p class="customer-ul-who">Chef</p>
+                    </div>
+                </li>
+
+                <li class="customer-li">
+                    <div class="customer-img-div">
+                        <img src="img/homeImage/robert.jpg" alt="Robert Fox" class="customer-img">
+                    </div>
+                    <div class="customer-content-div">
+                        <p class="customer-ul-p">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                        <h4 class="customer-ul-h4">Robert Fox</h4>
+                        <p class="customer-ul-who">Chef</p>
+                    </div>
+                </li>
+
+                <li class="customer-li">
+                    <div class="customer-img-div">
+                        <img src="img/homeImage/brooklyn.jpg" alt="Brooklyn Simmons" class="customer-img">
+                    </div>
+                    <div class="customer-content-div">
+                        <p class="customer-ul-p">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
+                        <h4 class="customer-ul-h4">Brooklyn Simmons</h4>
+                        <p class="customer-ul-who">Caterer</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="video">
+            <div class="video-div container">
+
             </div>
         </section>
-        <section>
-            <ul>
-                <li>
+        <section class="laurels">
+            <div class="laurels-div container">
+                <div class="laurels-content">
                     <div>
-                        <img src="" alt="Wade Warren">
+                        <p class="laurels-p spoon-right">Awards & recognition</p>
+                        <h2 class="laurels-h2">Our Laurels</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4>Wade Warren</h4>
-                    <p>Sommelier</p>
+                    <ul class="laurels-ul">
+                        <li class="laurels-li">
+                            <img src="img/homeImage/two.png" alt="2" class="laurels-content-img">
+                            <div>
+                                <h4 class="laurels-h4">Bib Gourmond</h4>
+                                <p class="laurels-lorem">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
+                        <li class="laurels-li">
+                            <img src="img/homeImage/one.png" alt="1" class="laurels-content-img">
+                            <div>
+                                <h4 class="laurels-h4">Rising Star</h4>
+                                <p class="laurels-lorem">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
+                        <li class="laurels-li">
+                            <img src="img/homeImage/five.png" alt="5" class="laurels-content-img">
+                            <div>
+                                <h4 class="laurels-h4">AA Hospitality </h4>
+                                <p class="laurels-lorem">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
+                        <li class="laurels-li">
+                            <img src="img/homeImage/three.png" alt="3" class="laurels-content-img">
+                            <div>
+                                <h4 class="laurels-h4">Outstanding Chef</h4>
+                                <p class="laurels-lorem">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="laurels-img-div">
+                    <img src="img/homeImage/chicken.jpg" alt="chicken" class="laurels-img">
+                </div>
+            </div>
+        </section>
+        <section class="updates container">
+            <p class="updates-p spoon">Blogs</p>
+            <h2 class="updates-h2">Gerícht updates</h2>
+            <ul class="updates-ul">
+                <li class="updates-li">
+                    <div class="updates-img-div">
+                        <img src="img/homeImage/meat.jpg" alt="meat">
+                    </div>
+                    <div class="updates-div">
+                        <p class="updates-date">16 Apr 2021</p>
+                        <p class="updates-date">- Annalisa L</p>
+                    </div>
+                    <a href="#" class="updates-a">tips for prepping and caring for your grill</a>
+                    <p class="updates-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <p class="updates-more">Read More</p>
                 </li>
-
-                <li>
-                    <div>
-                        <img src="" alt="Jane Cooper">
+                <li class="updates-li">
+                    <div class="updates-img-div">
+                        <img src="img/homeImage/lemontea.jpg" alt="lemontea">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4>Jane Cooper</h4>
-                    <p>Chef</p>
+                    <div class="updates-div">
+                        <p class="updates-date">23 May 2021</p>
+                        <p class="updates-date">-John Micheal</p>
+                    </div>
+                    <a href="#" class="updates-a">summer cocktails and mocktails</a>
+                    <p class="updates-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <p class="updates-more">Read More</p>
                 </li>
-
-                <li>
-                    <div>
-                        <img src="" alt="Robert Fox">
+                <li class="updates-li">
+                    <div class="updates-img-div">
+                        <img src="img/homeImage/cheeze.jpg" alt="cheeze">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4>Robert Fox</h4>
-                    <p>Chef</p>
-                </li>
-
-                <li>
-                    <div>
-                        <img src="" alt="Brooklyn Simmons">
+                    <div class="updates-div">
+                        <p class="updates-date">06 Aug 2021</p>
+                        <p class="updates-date">-Fred W</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.</p>
-                    <h4>Brooklyn Simmons</h4>
-                    <p>Caterer</p>
+                    <a href="#" class="updates-a">easy cooking for college students</a>
+                    <p class="updates-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                    <p class="updates-more">Read More</p>
                 </li>
             </ul>
+            <button class="updates-btn">View More</button>
+            <div class="updates-delight"></div>
         </section>
-        <section>
-        </section>
-        <section>
-            <p>Awards & recognition</p>
-            <h2>Our Laurels</h2>
-            <ul>
-                <li>
-                    <h4>Bib Gourmond</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-                <li>
-                    <h4>Rising Star</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-                <li>
-                    <h4>AA Hospitality </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-                <li>
-                    <h4>Outstanding Chef</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                </li>
-            </ul>
+        <section class="photogallery">
             <div>
-                <img src="" alt="chicken">
+                <p class="photogallery-instagram spoon-right">Instagram</p>
+                <h2 class="photogallery-h2">Photo Gallery</h2>
+                <p class="photogallery-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+                <button class="photogallery-bttn">View More</button>
             </div>
-        </section>
-        <section>
-            <p></p>
-            <h2></h2>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <div>
-                        <p>16 Apr 2021</p>
-                        <p>- Annalisa L</p>
-                    </div>
-                    <a href="#">tips for prepping and caring for your grill</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <p>Read More</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <div>
-                        <p>23 May 2021</p>
-                        <p>-John Micheal</p>
-                    </div>
-                    <a href="#">summer cocktails and mocktails</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <p>Read More</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <div>
-                        <p>06 Aug 2021</p>
-                        <p>-Fred W</p>
-                    </div>
-                    <a href="#">easy cooking for college students</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
-                    <p>Read More</p>
-                </li>
-            </ul>
-            <button>View More</button>
-        </section>
-        <section class="PhotoGallery">
-            <p class="PhotoGallery-instagram">Instagram</p>
-            <h2 class="PhotoGallery-h2">Photo Gallery</h2>
-            <p class="PhotoGallery-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-            <button class="PhotoGallery-bttn">View More</button>
-            <div class="PhotoGallery-div">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="photogallery-div">
+                <div>
+                    <img src="img/homeImage/ramen.jpg" alt="ramen" class="photogallery-img">
+                </div>
+                <div>
+                    <img src="img/homeImage/icebeer.jpg" alt="icebeer" class="photogallery-img">
+                </div>
+                <div>
+                    <img src="img/homeImage/egg.jpg" alt="egg" class="photogallery-img">
+                </div>
+                <div>
+                    <img src="img/homeImage/soup.jpg" alt="soup" class="photogallery-img">
+                </div>
+                <div>
+                    <img src="img/homeImage/tea.jpg" alt="tea" class="photogallery-img">
+                </div>
+            </div>
+            <div class="photogallery-delight">
+            
             </div>
         </section>
     </main>
     <footer class="footer">
         <section class="footerfirst container">
-            <div class="footerfirst-div mainContainer">
+            <div class="footerfirst-div">
                 <p class="footerfirst-p">Newsletter</p>
                 <h2 class="footerfirst-h2">Subscribe to Our Newsletter</h2>
                 <p class="footerfirst-miss">And never miss latest Updates!</p>
@@ -404,10 +472,10 @@
                     <a class="footersecond-a" href="https://maps.app.goo.gl/RYNNFm6tgYVvyvD58">
                         9 W 53rd St, New York, NY 10019, USA
                     </a>
-                    <a class="footersecond-a" href="tel:+1 212-344-1230">
+                    <a class="footersecond-a" href="tel:+12123441230">
                         +1 212-344-1230
                     </a>
-                    <a class="footersecond-a" href="tel:+1 212-555-1230">
+                    <a class="footersecond-a" href="tel:+12125551230">
                         +1 212-555-1230
                     </a>
                 </li>                
@@ -415,9 +483,9 @@
                     <h2 class="footersecond-h2">Gerícht</h2>
                     <p class="footersecond-h2-p">"The best way to find yourself is to lose yourself in the service of others.”</p>
                     <div class="programs">
-                        <a href="https://www.facebook.com/"><img src="img/u_facebook.png" alt="facebook"></a>
-                        <a href="https://x.com/"><img src="img/u_twitter.png" alt="twitter"></a>
-                        <a href="https://www.instagram.com/"><img src="img/u_instagram.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/"><img src="img/homeImage/u_facebook.png" alt="facebook"></a>
+                        <a href="https://x.com/"><img src="img/homeImage/u_twitter.png" alt="twitter"></a>
+                        <a href="https://www.instagram.com/"><img src="img/homeImage/u_instagram.png" alt="instagram"></a>
                     </div>
                 </li>
                 <li class="footersecond-li">
@@ -427,6 +495,10 @@
                 </li>
             </ul>
             <p class="footersecond-p-footer">2021 Gerícht. All Rights reserved.</p>
+            <div class="footersecond-top">
+                <div class="footersecond-top-div"></div>
+                <p class="footersecond-top-p">top</p>                
+            </div>
         </section>
     </footer>
 </body>
