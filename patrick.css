@@ -1,0 +1,141 @@
+
+
+
+
+.patrick{
+    background-image: 
+    linear-gradient(rgba(12,12,12,0.5),rgba(12,12,12,0.5)),
+    url(img/contactUsImage/backgroundLamp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 254px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.patrick-h2{
+    color: var(--h2-text-btn);
+
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+.patrick-div{
+    display: flex;
+    gap: 8px;  
+    margin-top: 24px;
+}
+.patrick-p{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.patrick-p1::after{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(img/contactUsImage/arrow.png);
+}
+
+
+
+
+
+
+
+/* -------------------------------who------------------------*/
+.who{
+    padding: 152px 190px;
+    gap: 32px;
+    display: flex;
+    position: relative;
+}
+
+.who-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.who-p{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3; /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.who-h2{
+    color: var(--h2-text-btn, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.30; 
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+.who-lorem{
+    color: var(--low-p);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+    margin-top: 64px;
+}
+.who-ul{
+    margin-top: 48px;
+}
+.who-div{
+    width: 16px;
+    height: 1px;
+    background: var(--h2-text-btn);
+}
+.who-li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.who-what{
+    color: var(--litle-text);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+.who-name
+{
+    color: var(--low-p, #AAA);
+    font-family: Bestermind;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.30; /* 83.2px */
+    letter-spacing: 2.56px;
+    margin-top: 48px;
+}
+.who-delight{
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    background-image: url(img/homeImage/delight.svg);
+    bottom: 74px;
+    right: 141px;
+}

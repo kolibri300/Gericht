@@ -8,18 +8,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/bestermind" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="container header-div">
-            <a href="#" class="logo">Gerícht</a>
+            <a href="index.html" class="logo">Gerícht</a>
             <nav class="nav">
-                <a href="#">Home</a>
-                <a href="#">Pages</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Blog</a>
+                <a href="index.html">Home</a>
+                <div class="a-div">
+                    <p class="header-a">
+                        Pages
+                    </p>
+                    <div class="a-div-div">
+                        <p class="div-p">Pages</p>
+                        <div class="a-div-transp">
+                            <a href="cheffs.html">
+                                Cheffs
+                            </a>
+                            <a href="services.html">
+                                Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="contactUs.html">Contact Us</a>
+                <div class="a-div-2">
+                    <p class="header-a-2">
+                        Blog
+                    </p>
+                    <div class="a-div-div-2">
+                        <p class="div-p-2">Blog</p>
+                        <div class="a-div-transp-2">
+                            <a href="cheffs.html">
+                                With sidebar
+                            </a>
+                            <a href="services.html">
+                                Single Column
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <a href="#">Landing</a>
             </nav>
             <div class="div">
@@ -80,9 +111,11 @@
                     <p class="about-us-p">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
                     </p>
-                    <button class="about-us-btn">
-                        Know More
-                    </button>
+                    <form action="aboutUs.html">
+                        <button class="about-us-btn">
+                            Know More
+                        </button>
+                    </form>
                 </div>
                 <img src="img/homeImage/knife.png" alt="knife" class="about-us-img">
                 <div class="about-us-div-right">
@@ -92,9 +125,11 @@
                     <p class="about-us-p">
                         Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
                     </p>
-                    <button class="about-us-btn">
-                        Know More
-                    </button>
+                    <form action="aboutUs.html">
+                        <button class="about-us-btn">
+                            Know More
+                        </button>
+                    </form>
                 </div>
                 <div class="about-us-delight">
             </div>
@@ -123,7 +158,9 @@
                         </select>
                     </li>
                 </ul>
-                <button class="book-btn">Book Now</button>
+                <form action="services.html">
+                    <button class="book-btn">Book Now</button>
+                </form>
             </div>
         </section>
         <section class="menu">
@@ -452,7 +489,7 @@
         </section>
     </main>
     <footer class="footer">
-        <section class="footerfirst container">
+        <section class="footerfirst-style container">
             <div class="footerfirst-div">
                 <p class="footerfirst-p">Newsletter</p>
                 <h2 class="footerfirst-h2">Subscribe to Our Newsletter</h2>
@@ -469,7 +506,7 @@
             <ul class="footersecond-ul">
                 <li class="footersecond-li">
                     <h3 class="footersecond-h3">Contact Us</h3>
-                    <a class="footersecond-a" href="https://maps.app.goo.gl/RYNNFm6tgYVvyvD58">
+                    <a class="footersecond-a" target="_blank" href="https://maps.app.goo.gl/RYNNFm6tgYVvyvD58">
                         9 W 53rd St, New York, NY 10019, USA
                     </a>
                     <a class="footersecond-a" href="tel:+12123441230">

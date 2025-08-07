@@ -1,0 +1,212 @@
+
+
+
+/* ------------------- our ----------------*/
+.our{
+    background-image: 
+    linear-gradient(rgba(12,12,12,0.5),rgba(12,12,12,0.5)),
+    url(img/contactUsImage/backgroundLamp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 254px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-h2{
+    color: var(--h2-text-btn);
+
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 3.6px;
+    text-transform: capitalize;
+}
+.our-div{
+    display: flex;
+    gap: 8px;  
+    margin-top: 24px;
+}
+.our-p{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.30;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.our-p1::after{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(img/contactUsImage/arrow.png);
+}
+
+
+
+
+
+
+
+/* ------------------- cheffs ----------------*/
+
+.cheff-h2{
+    color: var(--standart-text);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.30;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.cheff-p{
+    color: var(--standart-text);
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+
+.cheff-first{
+    color: var(--h2-text-btn);
+}
+.cheff-div-a{
+    color: var(--h2-text-btn);
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75; /* 28px */
+    letter-spacing: 0.64px;
+}
+.chefs-ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px 32px;
+    flex-wrap: wrap;
+    padding: 0 190px;
+}
+.chefs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 152px 0;
+    position: relative;
+}
+.chefs::after{
+    content: "";
+    display: block;
+    width: 146px;
+    height: 146px;
+    background-image: url(img/homeImage/delight.svg);
+    position: absolute;
+    top: 556px;
+    right: -29px;
+}
+.chefs::before{
+    content: "";
+    display: block;
+    width: 146px;
+    height: 146px;
+    background-image: url(img/homeImage/delight.svg);
+    position: absolute;
+    bottom: 6px;
+    left: -26px;
+}
+.cheffs-li{
+    flex-basis: calc((100% - 32px*2) / 3);
+}
+.cheffs-li-div{
+    position: relative;
+    overflow: hidden;
+}
+.cheff-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    background: rgba(12,12,12,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+    justify-content: flex-end;
+}
+.cheffs-li-div:hover .cheff-div{
+    top: 0;
+}
+.cheff-div-line{
+    background: var(--h2-text-btn);
+    width: 16px;
+    height: 1px;
+}
+.cheff-div >div, .cheff-div >div:nth-child(2) .cheff-div-a{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.cheff-div >div:nth-child(2) .cheff-div-a{
+    gap: 8px;
+}
+.div-1, .div-2, .div-3{
+    position: relative;
+}
+.div-1:hover::after{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/cheffsImage/facebookhover.svg);
+}
+.div-2:hover::after{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/cheffsImage/twiterhover.svg);
+}
+.div-3:hover::after{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(img/cheffsImage/instagramhover.svg);
+}
+
+.video-div{
+    background-image:url(img/homeImage/play.png);
+    background-position: center;
+}
+.laurels{
+    background-image: none;
+    padding-bottom: 0;
+}
+.footerfirst{
+    position: relative;
+}
+.footerfirst-delight{
+    width: 146px;
+    height: 146px;
+    background-image: url(img/homeImage/delight.svg);
+    position: absolute;
+    top: 223px;
+    right: 77px;
+}
