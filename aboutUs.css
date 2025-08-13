@@ -219,7 +219,15 @@
 
 
 
-
+.video-div{
+    display: block;
+    background-image:url(img/homeImage/play.png),linear-gradient(rgba(12,12,12,0.4),rgba(12,12,12,0.4)),url(img/homeImage/video.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 763px;
+    margin-top: 96px;
+}
 
 
 

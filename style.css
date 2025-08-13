@@ -213,7 +213,7 @@ button{
 
 
 
-/* ------------------------2------------------------ */
+ /*------------------------2------------------------ */
 .a-div-div-2{
     width: 0;
     font-size: 0;
@@ -293,7 +293,6 @@ button{
     justify-content: space-between;
     z-index: 1;
 }
-
 
 
 
@@ -1095,8 +1094,9 @@ button{
 
 
 
-/* ------------------------video------------------------ */
+/* ------------------------video------------------------*/
 .video-div{
+    display: block;
     background-image:url(img/homeImage/delight.svg),url(img/homeImage/play.png);
     background-position: 77px 147px, center;
     background-repeat: no-repeat;
@@ -1107,10 +1107,6 @@ button{
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
-
-
 
 
 
@@ -1433,7 +1429,7 @@ button{
     position: relative;
     background-image: linear-gradient(rgba(4,4,4,0.5),rgba(4,4,4,0.5)), url(img/homeImage/blackbackground.jpg);
 }
-.photogallery-div div::after{
+.photogallery-div a::after{
     content: "";
     display: block;
     position: absolute;
@@ -1443,7 +1439,7 @@ button{
     height: 447px;
     border: 2px solid rgba(220, 202, 135, 0.20);
 }
-.photogallery-div div:hover::after{
+.photogallery-div a:hover::after{
     content: "";
     display: block;
     position: absolute;
